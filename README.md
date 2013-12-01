@@ -1,0 +1,4 @@
+Consenso
+========
+
+Algoritmo do consenso
