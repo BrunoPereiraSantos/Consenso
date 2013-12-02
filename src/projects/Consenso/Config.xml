@@ -149,7 +149,7 @@
 		<DefaultReliabilityModel value="ReliableDelivery" />
 
 		<!--Default node implementation used when none is specified-->
-		<DefaultNodeImplementation value="Consenso:Processor" />
+		<DefaultNodeImplementation value="Consenso:Vertice" />
 
 		<!--Show the models implemented by all projects in the drop down options. When set to false, only the models by the selected project and the default project are shown.-->
 		<showModelsOfAllProjects value="false" />
@@ -229,9 +229,9 @@
 	
 <Node defaultSize="10" />
 
-<GeometricNodeCollection rMax="1000"/>
+<GeometricNodeCollection rMax="700"/>
 
-<UDG rMax="1000"/>
+<UDG rMax="700"/>
 
 <SINR alpha="2" beta="0.7" noise="0"/>
 

@@ -39,6 +39,7 @@ package projects.Consenso;
 
 import javax.swing.JOptionPane;
 
+import projects.Consenso.nodes.nodeImplementations.Vertice;
 import sinalgo.runtime.AbstractCustomGlobal;
 
 /**
@@ -90,5 +91,18 @@ public class CustomGlobal extends AbstractCustomGlobal{
 	@AbstractCustomGlobal.CustomButton(buttonText="GO", toolTipText="A sample button")
 	public void sampleButton() {
 		JOptionPane.showMessageDialog(null, "You Pressed the 'GO' button.");
+	}
+	
+	
+	int cont = 0;
+	
+	@Override
+	public void postRound() {
+		// TODO Auto-generated method stub
+		if(cont == 3){
+			Vertice.turn++;
+			cont = 0;
+		}
+		cont++;
 	}
 }
