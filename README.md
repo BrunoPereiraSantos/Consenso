@@ -1,4 +1,4 @@
 Consenso
 ========
 
-Algoritmo do consenso
+Algoritmo do Paxos (consenso)
